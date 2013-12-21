@@ -5,7 +5,7 @@ This project uses MIT-LICENSE.
 ##Getting started
 
 ```ruby
-gem 'pdf_render'
+gem 'pdf_render', git: 'git@github.com:WhiteCrow/pdf_render.git'
 ```
 
 After you use bundle install pdf_render, you can call use pdf_reder like it:
