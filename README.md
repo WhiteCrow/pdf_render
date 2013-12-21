@@ -1,14 +1,17 @@
-= PdfRender
+#pdf_render
 
 This project uses MIT-LICENSE.
+The gem package depend on **rails 4**.
 
 ##Getting started
 
+Add
 ```ruby
 gem 'pdf_render', git: 'git@github.com:WhiteCrow/pdf_render.git'
 ```
+in Gemfile.
 
-After you use bundle install pdf_render, you can call use pdf_reder like it:
+After you use bundle to install pdf_render, you can use pdf_reder like it:
 
 ```ruby
   def index
