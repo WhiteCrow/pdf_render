@@ -1,0 +1,37 @@
+" Press ? for help
+
+.. (up a dir)
+<ao/programming/tmp/pdf_render/
+▸ lib/
+▾ test/
+  ▾ dummy/
+    ▾ app/
+      ▸ assets/
+      ▾ controllers/
+        ▸ concerns/
+          application_controller.rb
+          home_controller.rb
+      ▸ helpers/
+      ▸ mailers/
+      ▸ models/
+      ▸ views/
+    ▸ bin/
+    ▸ config/
+    ▸ db/
+    ▸ lib/
+    ▸ log/
+    ▸ public/
+    ▸ tmp/
+      config.ru
+      Rakefile
+      README.rdoc
+  ▾ integration/
+      pdf_delivery_test.rb
+    pdf_render_test.rb
+    test_helper.rb
+  Gemfile
+  Gemfile.lock
+  MIT-LICENSE
+  pdf_render.gemspec
+  Rakefile
+  README.rdoc

@@ -11,8 +11,15 @@ gem 'pdf_render'
 After you use bundle install pdf_render, you can call use pdf_reder like it:
 
 ```ruby
-gem 'pdf_render'
+  def index
+    respond_to do |format|
+      format.html
+      format.pdf {render pdf: "contents", template: "home/index"}
+    end
+  end
 ```
+and add view "home/index.pdf.erb" in app/views in rails application,
+then you can get pdf in http://localhost:3000/home.pdf
 
 ##Run test
 run
