@@ -7,7 +7,7 @@ The gem package depend on **rails 4**.
 
 Add
 ```ruby
-gem 'pdf_render', git: 'git@github.com:WhiteCrow/pdf_render.git'
+gem 'pdf_render'
 ```
 in Gemfile.
 
