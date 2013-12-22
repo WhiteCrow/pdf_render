@@ -7,6 +7,7 @@ require "pdf_render/version"
 Gem::Specification.new do |s|
   s.name        = "pdf_render"
   s.version     = PdfRender::VERSION
+  s.licenses    = ["MIT"]
   s.authors     = ["Aaron Liu"]
   s.email       = ["liu_sihao@163.com"]
   s.homepage    = "liusihao.com"
