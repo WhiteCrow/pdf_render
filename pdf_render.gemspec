@@ -10,11 +10,10 @@ Gem::Specification.new do |s|
   s.licenses    = ["MIT"]
   s.authors     = ["Aaron Liu"]
   s.email       = ["liu_sihao@163.com"]
-  s.homepage    = "liusihao.com"
-  s.summary     = "TODO: Summary of PdfRender."
-  s.description = "TODO: Description of PdfRender."
+  s.homepage    = "https://github.com/WhiteCrow/pdf_render"
+  s.summary     = "simple render pdf in the rails view"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.0.0"
